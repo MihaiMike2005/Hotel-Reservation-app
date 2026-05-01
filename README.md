@@ -37,21 +37,13 @@ Key OOP decisions:
 
 ## Build & Run
 
-Requires a C++11-compatible compiler.
+### Using CMake (recommended, cross-platform)
 
-### Linux / macOS (g++)
-
-```bash
-g++ -std=c++11 -o hotel main.cpp
-./hotel
-```
-
-### Windows (MSVC, Developer Command Prompt)
-
-```bash
-cl /EHsc /std:c++14 main.cpp
-main.exe
-```
+mkdir build && cd build
+cmake ..
+cmake --build .
+./hotel        # Linux/macOS
+hotel.exe      # Windows
 
 The program expects `data.txt` in the working directory.
 
