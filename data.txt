@@ -1,0 +1,6 @@
+Standard,101
+Standard,102
+Deluxe,201
+Deluxe,202
+Suite,301
+Suite,302
