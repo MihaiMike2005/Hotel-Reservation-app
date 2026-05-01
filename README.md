@@ -38,13 +38,13 @@ Key OOP decisions:
 ## Build & Run
 
 ### Using CMake (recommended, cross-platform)
-
+```
 mkdir build && cd build
 cmake ..
 cmake --build .
 ./hotel        # Linux/macOS
 hotel.exe      # Windows
-
+```
 The program expects `data.txt` in the working directory.
 
 ## Data Format
